@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>BTS Universe</title> <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <title>Universo da Maquiagem</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,61 +18,66 @@
                 <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
             </ul>
-            <div id="acessibilidade" class="menu-acessibilidade"> 
+            <div id="acessibilidade" class="menu-acessibilidade">
                 <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">Acessibilidade</button>
                 <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
                     <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
                     <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
-                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"> <i class="bi bi-shadows"></i></button>
                 </div>
             </div>
         </nav>
     </header>
 
-
     <main class="container my-5">
 
+        <!-- Início -->
         <section id="inicio" class="my-5">
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-white fst-italic fw-bold">Bem-vindos ao Universo</h1>
-                    <!--<img src="" alt="BTS Logo" class="mb-3" width="563" height="278" loading="lazy">--> 
-                    <a href="#about-bts" class="btn btn-primary btn-lg botao-inicio fw-semibold">Explore o BTS!</a>
-                </div>
-                <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BTS_at_the_2019_Billboard_Music_Awards.png/1280px-BTS_at_the_2019_Billboard_Music_Awards.png" alt="BTS group photo with all members" title="BTS Official Photo" class="img-fluid img-inicio"> </div>-->
-        </section>
-
-        <section id="about-bts" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção sobre a história do BTS">
-            <div class="container d-flex align-items-center ">
-                <div class="col-4 d-flex justify-content-center ">
-                    <img src="img/bts5.jpg" alt="Photo of BTS member Jungkook" class="rounded-pill" width="273" height="331" loading="lazy"> </div>
-                <div class="col-5">
-                    <h2>Quem é BTS?</h2>
-                    <p class="p-2">BTS, também conhecido como Bangtan Sonyeondan, é um grupo sul-coreano de K-pop formado pela Big Hit Entertainment. Composto por sete membros – RM, Jin, Suga, J-Hope, Jimin, V e Jungkook – o grupo estreou em 2013. Conhecidos por suas letras que abordam temas sociais, saúde mental e empoderamento, além de performances cativantes e músicas diversas, BTS conquistou uma enorme base de fãs global, os ARMYs, e se tornou um dos maiores fenômenos musicais do mundo. Eles quebraram inúmeros recordes e foram os primeiros artistas sul-coreanos a se apresentar e ser indicados ao Grammy Awards.
-                    </p>
+                    <h1 class="display-4 text-white fst-italic fw-bold">Bem-vindo ao Universo da Maquiagem</h1>
+                    <a href="#sobre-make" class="btn btn-primary btn-lg botao-inicio fw-semibold">Explore o Mundo da Beleza!</a>
                 </div>
             </div>
         </section>
 
-        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens do BTS">
-            <h2 class="text-center pt-5">Galeria BTS</h2>
-            <div class="container p-3 mt-3 fundo-galeria ">
+        <!-- Sobre -->
+        <section id="sobre-make" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção sobre maquiagem">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="img/make1.jpg" alt="Pessoa aplicando maquiagem" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>O que é Maquiagem?</h2>
+                    <p class="p-2">A maquiagem é a arte de realçar a beleza e expressar estilo por meio de cores, texturas e técnicas. Seja em looks naturais ou produções artísticas, produtos como batons, sombras, bases e iluminadores transformam a forma como nos apresentamos e nos sentimos. A maquiagem é expressão, criatividade e confiança.</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Galeria -->
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de maquiagem">
+            <h2 class="text-center pt-5">Galeria de Maquiagem</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
                 <div class="row justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/bts1.webp" alt="BTS performing live on stage" class="img-fluid rounded-5" loading="lazy"> </div>
+                        <img src="img/make2.jpg" alt="Paleta de sombras coloridas" class="img-fluid rounded-5" loading="lazy">
+                    </div>
                     <div class="col-md-4">
-                        <img src="img/bts2.jpg" alt="BTS member V during a performance" class="img-fluid rounded-5" loading="lazy"> </div>
+                        <img src="img/make3.jpg" alt="Coleção de batons em várias cores" class="img-fluid rounded-5" loading="lazy">
+                    </div>
                 </div>
                 <div class="row mt-4 justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/bts3.jpg" alt="BTS member Jimin in a concept photo" class="img-fluid rounded-5" loading="lazy"> </div>
+                        <img src="img/make4.jpg" alt="Maquiadora aplicando maquiagem em cliente" class="img-fluid rounded-5" loading="lazy">
+                    </div>
                     <div class="col-md-4">
-                        <img src="img/bts4.jpg" alt="BTS member Suga posing for an album cover" class="img-fluid rounded-5" loading="lazy"> </div>
+                        <img src="img/make5.jpg" alt="Mesa com produtos de maquiagem" class="img-fluid rounded-5" loading="lazy">
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Contato -->
         <section id="contato">
             <div class="container p-5 d-flex justify-content-center">
                 <div class="col-md-8 col-lg-10 rounded-5 formulario">
@@ -98,15 +103,16 @@
             </div>
         </section>
     </main>
+
     <footer class="text-center p-3 fst-italic">
         <p>Acesse nossas redes:</p>
         <a href="https://wa.me/yourphonenumber" aria-label="Link para WhatsApp" target="_blank"><i class="bi bi-whatsapp"></i></a>
-        <a href="https://www.instagram.com/bts.bighitofficial" aria-label="Link para Instagram oficial do BTS" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.tiktok.com/@bts_official_bighit" aria-label="Link para TikTok oficial do BTS" target="_blank"><i class="bi bi-tiktok"></i></a>
-        <p class="mt-3">Feito com carinho para ARMYs. Projeto fictício sem fins comerciais.</p>
+        <a href="https://www.instagram.com/maquiagem_universo" aria-label="Link para Instagram do Universo da Maquiagem" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@maquiagem_oficial" aria-label="Link para TikTok de Maquiagem" target="_blank"><i class="bi bi-tiktok"></i></a>
+        <p class="mt-3">Feito com paixão pelo universo da maquiagem. Projeto fictício sem fins comerciais.</p>
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
